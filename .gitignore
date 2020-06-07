@@ -1,0 +1,13 @@
+node_modules
+
+.idea
+
+.env
+
+tmp
+
+.DS_Store
+
+docker/
+
+*.log

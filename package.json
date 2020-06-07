@@ -1,0 +1,11 @@
+{
+  "name": "parity-load-balancer-health-checker",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
