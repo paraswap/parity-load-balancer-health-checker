@@ -1,7 +1,7 @@
 const http = require('http');
 
-const HOSTNAME = process.env.HC_HOSTNAME || '127.0.0.1';
-const PORT = process.env.PORT || 4444;
+const HOSTNAME = process.env.HC_HOSTNAME || '0.0.0.0';
+const PORT = process.env.HC_PORT || 4444;
 
 const RESPONSE_TIMEOUT = process.env.HC_RESPONSE_TIMEOUT || 5 * 1000;
 
